@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Rubik Mono One", monospace;
+    font-style: normal;
 }
 
 .navbar {
@@ -25,22 +27,42 @@ nav a {
     border-radius: 50%;
     text-align: center;
     line-height: 50px;
-    font-size: 23px;
-    font-weight: 800;
+    font-size: 22px;
+    font-weight: 400;
+    transition: 0.31s ease-in-out;
 
 }
 
-.first-sec {
-    background-color: tomato;
+.img,
+.shoes,
+.desc {
+    color: yellow;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#desc-3 {
+    color: green;
+}
+
+.shoes {
+    padding-top: 100px;
+}
+
+#first-sec {
+    background-color: red;
     height: 100vh;
 }
 
-.second-sec {
-    background-color: yellowgreen;
-    height: 100vh;
-}
-
-.third-sec {
+#second-sec {
     background-color: green;
+    height: 100vh;
+}
+
+#third-sec {
+    background-color: yellow;
     height: 100vh;
 }
